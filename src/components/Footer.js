@@ -1,12 +1,32 @@
 import React from 'react';
 import './Footer.css';
+import { MdPlayCircleOutline } from '@react-icons/all-files/md/MdPlayCircleOutline';
+import { MdSkipNext } from '@react-icons/all-files/md/MdSkipNext';
+import { MdSkipPrevious } from '@react-icons/all-files/md/MdSkipPrevious';
+import { MdShuffle } from '@react-icons/all-files/md/MdShuffle';
+import { MdRepeat } from '@react-icons/all-files/md/MdRepeat';
+import { MdRepeatOne } from '@react-icons/all-files/md/MdRepeatOne';
 
 function Footer() {
   return (
-    <div className='footer'>
-        <h1>I am the Footer</h1>
+    <div className="footer">
+      <div className="footer__left">
+        <p>Album and song details</p>
+      </div>
+
+      <div className="footer__center">
+        <MdShuffle className='footer__green' />
+        <MdSkipPrevious className='footer__icon' />
+        <MdPlayCircleOutline fontSize="xx-large" className='footer__icon' />
+        <MdSkipNext className='footer__icon' />
+        <MdRepeat className='footer__green' />
+      </div>
+
+      <div className="footer__right">
+        <p>Volume Controls</p>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
