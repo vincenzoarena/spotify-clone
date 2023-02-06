@@ -1,9 +1,9 @@
 import React from 'react';
 import './Sidebar.css';
 import SidebarOption from './SidebarOption';
-import { MdHome } from '@react-icons/all-files/md/MdHome';
-import { MdSearch } from '@react-icons/all-files/md/MdSearch';
-import { MdLibraryMusic } from '@react-icons/all-files/md/MdLibraryMusic';
+import { MdHome } from 'react-icons/md/';
+import { MdSearch } from 'react-icons/md/';
+import { MdLibraryMusic } from 'react-icons/md/';
 import { useDataLayerValue } from '../DataLayer';
 
 function Sidebar() {
@@ -24,6 +24,7 @@ function Sidebar() {
       <strong className="sidebar__title">PLAYLISTS</strong>
       <hr />
 
+      
       {playlists?.items?.map((playlist) => (
         <SidebarOption title={playlist.name} />
       ))}

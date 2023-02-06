@@ -1,7 +1,64 @@
 .body {
-    flex: 0.8;
-    background: linear-gradient(#5b5773, #000000);
-    height: 100vh;
-    padding: 30px;
-    color: #ffffff;
+  padding: 30px;
+  width: 100%;
+  height: 100vh;
+  overflow-y: overlay;
+  flex: 0.8;
+  background: linear-gradient(#555555, #000000);
+  color: #ffffff;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body__info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.body__info > img {
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px #000000;
+}
+
+.body__infoText {
+  flex: 1;
+}
+
+.body__icons{
+    display: flex;
+    align-items: center;
+}
+
+.body__iconsImages {
+    margin-right: 20px;
+}
+
+.body__songs {
+    margin: 20px -30px;
+}
+
+.body__shuffle {
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1db954;
+}
+
+.body__shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.body__infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body__infoText > p {
+  font-size: 14px;
 }
