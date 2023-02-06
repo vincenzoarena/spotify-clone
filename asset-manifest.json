@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.aefe84d0.css",
-    "main.js": "/static/js/main.604c45c0.js",
-    "static/js/787.374e8883.chunk.js": "/static/js/787.374e8883.chunk.js",
-    "index.html": "/index.html",
-    "main.aefe84d0.css.map": "/static/css/main.aefe84d0.css.map",
-    "main.604c45c0.js.map": "/static/js/main.604c45c0.js.map",
-    "787.374e8883.chunk.js.map": "/static/js/787.374e8883.chunk.js.map"
+    "main.css": "/spotify-clone/static/css/main.aefe84d0.css",
+    "main.js": "/spotify-clone/static/js/main.275c7255.js",
+    "static/js/787.374e8883.chunk.js": "/spotify-clone/static/js/787.374e8883.chunk.js",
+    "index.html": "/spotify-clone/index.html",
+    "main.aefe84d0.css.map": "/spotify-clone/static/css/main.aefe84d0.css.map",
+    "main.275c7255.js.map": "/spotify-clone/static/js/main.275c7255.js.map",
+    "787.374e8883.chunk.js.map": "/spotify-clone/static/js/787.374e8883.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aefe84d0.css",
-    "static/js/main.604c45c0.js"
+    "static/js/main.275c7255.js"
   ]
 }
